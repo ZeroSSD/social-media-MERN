@@ -17,7 +17,7 @@ class Landing extends Component {
             <section className="landing">
                 <div className="dark-overlay">
                     <div className="landing-inner">
-                    <h1 className="x-large">Dev Media</h1>
+                    <h1 className="x-large">StackedIn</h1>
                     <p className="lead">
                         Create a developer profile, share posts and get help from
                         other developers.                        

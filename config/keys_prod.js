@@ -1,4 +1,4 @@
 module.exports = {
-    mongoURI: process.env.MONGO_URI,
-    secretOrKey: process.env.SECRET_OR_KEY
+    mongoURI: "mongodb+srv://admin:admin@cluster0.blmb07l.mongodb.net/?retryWrites=true&w=majority",
+    secretOrKey: "123456"
 }

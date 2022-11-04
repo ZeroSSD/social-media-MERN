@@ -23,39 +23,39 @@ function Quiz(){
 		},
 		
 		{
-			questionText: 'What is the capital of France?',
+			questionText: 'Which case of data structure operation takes maximum time?',
 			answerOptions: [
-				{ answerText: 'New York', isCorrect: false },
-				{ answerText: 'London', isCorrect: false },
-				{ answerText: 'Paris', isCorrect: true },
-				{ answerText: 'Dublin', isCorrect: false },
+				{ answerText: 'Worst Case', isCorrect: true },
+				{ answerText: 'Best Case', isCorrect: false },
+				{ answerText: 'Average Case', isCorrect: false },
+				{ answerText: 'None of the above', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'Who is CEO of Tesla?',
+			questionText: 'Which data structure allows deleting data elements from front and inserting at rear?',
 			answerOptions: [
-				{ answerText: 'Jeff Bezos', isCorrect: false },
-				{ answerText: 'Elon Musk', isCorrect: true },
-				{ answerText: 'Bill Gates', isCorrect: false },
-				{ answerText: 'Tony Stark', isCorrect: false },
+				{ answerText: 'Stacks', isCorrect: false },
+				{ answerText: 'Queues', isCorrect: true },
+				{ answerText: 'Deques', isCorrect: false },
+				{ answerText: 'Binary Search Tree', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'The iPhone was created by which company?',
+			questionText: 'Which of the following sorting algorithm is of divide-and-conquer type?',
 			answerOptions: [
-				{ answerText: 'Apple', isCorrect: true },
-				{ answerText: 'Intel', isCorrect: false },
-				{ answerText: 'Amazon', isCorrect: false },
-				{ answerText: 'Microsoft', isCorrect: false },
+				{ answerText: 'Bubble Sort', isCorrect: false },
+				{ answerText: 'Insertion Sort', isCorrect: false },
+				{ answerText: 'Quick Sort', isCorrect: true },
+				{ answerText: 'Selection Sort', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'How many wonders are there in World?',
+			questionText: 'What type of an algorithms running time is represented by omega notation ?',
 			answerOptions: [
-				{ answerText: '1', isCorrect: false },
-				{ answerText: '4', isCorrect: false },
-				{ answerText: '6', isCorrect: false },
-				{ answerText: '7', isCorrect: true },
+				{ answerText: 'upper bound', isCorrect: false },
+				{ answerText: 'medium bound', isCorrect: false },
+				{ answerText: 'lower bound', isCorrect: true},
+				{ answerText: 'Both medium and lower bound', isCorrect: false },
 			],
 		},
 
@@ -80,22 +80,22 @@ function Quiz(){
 		},
 
 		{
-			questionText: 'Which is the most electronegative element in periodic table?',
+			questionText: 'What in an algorithm represnts the amount of memory space required by the algorithm in its life cycle ?',
 			answerOptions: [
-				{ answerText: 'Flourine', isCorrect: true },
-				{ answerText: 'Chlorine', isCorrect: false },
-				{ answerText: 'Oxygen', isCorrect: false },
-				{ answerText: 'Sodium', isCorrect: false },
+				{ answerText: 'Space Complexity', isCorrect: true },
+				{ answerText: 'Time Complexity', isCorrect: false },
+				{ answerText: 'Quadratic Complexity', isCorrect: false },
+				{ answerText: 'Exponential Complexity', isCorrect: false },
 			],
 		},
 
 		{
-			questionText: 'Where is the Taj Mahal located?',
+			questionText: 'What is the type of the algorithm used in solving the 8 Queens problem?',
 			answerOptions: [
-				{ answerText: 'Delhi', isCorrect: false },
-				{ answerText: 'Patna', isCorrect: false },
-				{ answerText: 'Jaipur', isCorrect: false },
-				{ answerText: 'Agra', isCorrect: true },
+				{ answerText: 'Backtracking', isCorrect: true },
+				{ answerText: 'Dynamic', isCorrect: false },
+				{ answerText: 'Branch and Bound', isCorrect: false },
+				{ answerText: 'Both A and B', isCorrect: false },
 			],
 		},
 		
@@ -134,8 +134,8 @@ function Quiz(){
                 	<div className="container">
                     <div className="row">
                         <div className="col-md-8 m-auto">
-						<h1 className="display-4 text-center">Quiz Zone</h1>
-						<p className="lead text-center">Mock quiz to test your knowledge and brush up your skills. Only you can see how you performed in the test.</p>
+						<h1 className="display-4 text-center">Skill Test</h1>
+						<p className="lead text-center">Get a chance to check your technical skills and improve them. Only you can see how you performed in the test.</p>
 						<br/>
 					 <div className="question-section">
 						<span>Question {currentQuestion+1} of {questions.length}</span> 

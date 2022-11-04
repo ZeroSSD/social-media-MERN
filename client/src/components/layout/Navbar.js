@@ -23,7 +23,7 @@ class Navbar extends Component {
                 <Link to="/feed">Post Feed</Link>
               </li>
               <li>
-                <Link to="/quiz">Mock Quiz</Link>
+                <Link to="/quiz">Skill Test</Link>
               </li>              
               <li>
                 <Link to="/dashboard">
@@ -57,7 +57,7 @@ class Navbar extends Component {
             <nav className="navbar bg-dark">
               <h1>
                 <Link to="/">
-                  <i className="fas fa-code" /> DevMedia
+                  <i className="fas fa-code" /> StackedIn
                 </Link>
               </h1>
               <Fragment>{isAuthenticated ? authLinks : guestLinks}</Fragment>
